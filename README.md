@@ -24,6 +24,17 @@
 >> dotnet add package App.Infra.Integration.ReCaptcha
 ```
 
+### Attributes
+```c#
+ [ReCaptcha]
+ 
+ [ReCaptchaIgnore]
+```
+### TagHelper
+```cshtml
+  @Html.ReCaptcha()
+```
+
 ### Startup
 ```c#
 services
@@ -58,7 +69,7 @@ services
     }        
 ```
 
-### Controller [Ignore] 
+### Action [Ignore] 
 ```c#
     [ReCaptcha]
     public class ExampleController : Controller
@@ -78,7 +89,7 @@ services
     }        
 ```
 
-### Controller [Unique] 
+### Action [Unique] 
 ```c#
     
     public class ExampleController : Controller
