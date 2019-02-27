@@ -34,12 +34,16 @@
 ```
 
 ### TagHelper
+Is Taghelper must be inserted inside the ```<form>``` in ```.cshtml``` files.
+ 
 ```cshtml
   @Html.ReCaptcha()
 ```
 ---
 
-### Startup
+### Configure
+To configure the reCAPTCHA you must by this code snippet with your key information, in the file *Startup.cs*
+
 ```c#
 services
   .AddMvc(options => {
@@ -54,7 +58,9 @@ services
 
 ```
 
-### Controller [Any] 
+### Controller [All Action]
+  This support package for the reCAPTCHA to validate all Methodos, the more we encourage only use in calls ```POST, PUT, DELETE``` Although the ```GET``` works.
+  
 ```c#
     [ReCaptcha]
     public class ExampleController : Controller
