@@ -24,16 +24,20 @@
 >> dotnet add package App.Infra.Integration.ReCaptcha
 ```
 
+---
+
 ### Attributes
 ```c#
  [ReCaptcha]
  
  [ReCaptchaIgnore]
 ```
+
 ### TagHelper
 ```cshtml
   @Html.ReCaptcha()
 ```
+---
 
 ### Startup
 ```c#
