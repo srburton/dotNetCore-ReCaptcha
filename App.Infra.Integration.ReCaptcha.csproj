@@ -1,12 +1,30 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Description>reCAPTCHA protects you against spam and other types of automated abuse. Here, we explain how to add reCAPTCHA to your site or application.</Description>
+    <PackageIconUrl>https://www.gstatic.com/images/icons/material/product/2x/recaptcha_48dp.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/srburton/dotNetCore-ReCaptcha</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageTags>.NetCore, ReCaptcha, MVC</PackageTags>
+    <PackageProjectUrl>https://github.com/srburton/dotNetCore-ReCaptcha</PackageProjectUrl>
+    <PackageId>App.Infra.Integration.ReCaptcha</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>Renato Burton</Authors>
+    <Company>none</Company>
+    <Product>ReCaptcha For MVC</Product>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <Copyright>none</Copyright>
+    <AssemblyVersion>1.0.1.1</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Flurl.Http" Version="2.4.1" />
     <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
   </ItemGroup>
 

@@ -1,0 +1,9 @@
+C:\Users\beblue\Documents\Projects\dotNetCore-ReCaptcha-master\dotNetCore-ReCaptcha-master\obj\Debug\netcoreapp2.1\App.Infra.Integration.ReCaptcha.csprojAssemblyReference.cache
+C:\Users\beblue\Documents\Projects\dotNetCore-ReCaptcha-master\dotNetCore-ReCaptcha-master\obj\Debug\netcoreapp2.1\App.Infra.Integration.ReCaptcha.csproj.CoreCompileInputs.cache
+C:\Users\beblue\Documents\Projects\dotNetCore-ReCaptcha-master\dotNetCore-ReCaptcha-master\obj\Debug\netcoreapp2.1\App.Infra.Integration.ReCaptcha.AssemblyInfoInputs.cache
+C:\Users\beblue\Documents\Projects\dotNetCore-ReCaptcha-master\dotNetCore-ReCaptcha-master\obj\Debug\netcoreapp2.1\App.Infra.Integration.ReCaptcha.AssemblyInfo.cs
+C:\Users\beblue\Documents\Projects\dotNetCore-ReCaptcha-master\dotNetCore-ReCaptcha-master\bin\Debug\netcoreapp2.1\App.Infra.Integration.ReCaptcha.deps.json
+C:\Users\beblue\Documents\Projects\dotNetCore-ReCaptcha-master\dotNetCore-ReCaptcha-master\bin\Debug\netcoreapp2.1\App.Infra.Integration.ReCaptcha.dll
+C:\Users\beblue\Documents\Projects\dotNetCore-ReCaptcha-master\dotNetCore-ReCaptcha-master\bin\Debug\netcoreapp2.1\App.Infra.Integration.ReCaptcha.pdb
+C:\Users\beblue\Documents\Projects\dotNetCore-ReCaptcha-master\dotNetCore-ReCaptcha-master\obj\Debug\netcoreapp2.1\App.Infra.Integration.ReCaptcha.dll
+C:\Users\beblue\Documents\Projects\dotNetCore-ReCaptcha-master\dotNetCore-ReCaptcha-master\obj\Debug\netcoreapp2.1\App.Infra.Integration.ReCaptcha.pdb

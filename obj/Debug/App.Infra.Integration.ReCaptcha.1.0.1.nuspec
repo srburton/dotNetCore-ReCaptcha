@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>App.Infra.Integration.ReCaptcha</id>
+    <version>1.0.1</version>
+    <authors>Renato Burton</authors>
+    <owners>Renato Burton</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/srburton/dotNetCore-ReCaptcha</projectUrl>
+    <iconUrl>https://www.gstatic.com/images/icons/material/product/2x/recaptcha_48dp.png</iconUrl>
+    <description>reCAPTCHA protects you against spam and other types of automated abuse. Here, we explain how to add reCAPTCHA to your site or application.</description>
+    <copyright>none</copyright>
+    <tags>.NetCore, ReCaptcha, MVC</tags>
+    <repository type="GitHub" url="https://github.com/srburton/dotNetCore-ReCaptcha" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Flurl.Http" version="2.4.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Http.Abstractions" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\beblue\Documents\Projects\dotNetCore-ReCaptcha-master\dotNetCore-ReCaptcha-master\bin\Debug\netcoreapp2.1\App.Infra.Integration.ReCaptcha.dll" target="lib\netcoreapp2.1\App.Infra.Integration.ReCaptcha.dll" />
+  </files>
+</package>
