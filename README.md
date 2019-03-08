@@ -12,8 +12,10 @@
 [![License: MIT](https://img.shields.io/github/issues-raw/srburton/dotNetCore-ReCaptcha.svg)]()
 [![License: MIT](	https://img.shields.io/github/issues-closed/srburton/dotNetCore-ReCaptcha.svg)]()
 
-
-
+### Version .NetCore
+```
+ 2.1, 2.2
+```
 
 
 ### Install
