@@ -35,7 +35,7 @@ public static class StringExtension
         string template = route.Template ?? string.Empty;
 
         for (int i = 0; i < data.Length; i++)
-            template = route.Template.Replace("{" + i + "}", data[i].ToString());
+            template = template.Replace("{" + i + "}", data[i].ToString());
 
         return $"{@base}{template}";
     }

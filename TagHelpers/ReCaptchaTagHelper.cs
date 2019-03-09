@@ -9,9 +9,9 @@ public static class ReCaptchaTagHelper
     {
         StringBuilder builder = new StringBuilder();
 
-        builder.Append($"<input readonly hidden name=g-recaptcha hidden readonly data-sitekey='{ReCaptchaPublicConfig.PublicKey}' />");
         builder.Append($"<script src='https://www.google.com/recaptcha/api.js?render={ReCaptchaPublicConfig.PublicKey}'></script>");
-        builder.Append("<script>grecaptcha.ready(function () {grecaptcha.execute('" + ReCaptchaPublicConfig.PublicKey + "',{ action: 'index' }).then(function (token) { document.querySelector('input[name=g-recaptcha]').value = token; });});</script>");
+        builder.Append("<script> function sc(e,t,i){var o='';if(i){var n=new Date;n.setTime(n.getTime()+i*60*1e3),o='; expires='+n.toUTCString()}document.cookie=e+'='+(t||'')+o+'; path=/'}</script>");
+        builder.Append("<script>grecaptcha.ready(function () {grecaptcha.execute('" + ReCaptchaPublicConfig.PublicKey + "',{ action: 'index' }).then(function (token) {sc('g-recaptcha',token,10);});});</script>");
 
         return new HtmlString(builder.ToString());
     }

@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -32,13 +33,14 @@ namespace App.Infra.Integration.ReCaptcha.Filters
         }
 
         public void OnActionExecuting(ActionExecutingContext context)
+
         {
             try
             {
                 var baseController = ((ControllerBase)context.Controller).ControllerContext.ActionDescriptor;
 
-                context.HttpContext.Request.Headers.TryGetValue("g-recaptcha", out var responseReCaptcha);
-
+                var responseReCaptcha = context.HttpContext.Request.Cookies.FirstOrDefault(x => x.Key == "g-recaptcha").Value ?? string.Empty;
+                                                         
                 //Atributo padrão na class 
                 var reCapController = baseController.ControllerTypeInfo
                                                     ?.GetCustomAttribute<ReCaptchaAttribute>(true);
